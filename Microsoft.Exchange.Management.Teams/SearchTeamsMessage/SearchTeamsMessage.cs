@@ -141,13 +141,13 @@ namespace Microsoft.Exchange.Management.Teams.SearchTeamsMessage
 
         /// <summary>
         /// Gets or sets the Topic property
-        /// </summary
+        /// </summary>
         [Parameter(Mandatory = true, ParameterSetName = ParameterSet.Topic)]
         public string Topic { get; set; }
 
         /// <summary>
         /// Gets or sets the ThreadId property
-        /// </summary
+        /// </summary>
         [Parameter(Mandatory = true, ParameterSetName = ParameterSet.ThreadId)]
         public string ThreadId { get; set; }
 
